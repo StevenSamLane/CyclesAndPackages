@@ -8,9 +8,9 @@ public class VacationServiceTest {
     void calculateVacationMonths() {
         VacationService vacationService = new VacationService();
 
-        int income = 110000;
-        int expenses = 30000;
-        int threshold = 100000;
+        int income = 10_000;
+        int expenses = 3_000;
+        int threshold = 20_000;
 
         int result = vacationService.calculateVacationMonths(income, expenses, threshold);
 
