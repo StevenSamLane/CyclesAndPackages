@@ -8,9 +8,9 @@ public class VacationService {
         for (int i = 1; i <= 12; i++) {
             if (money >= threshold) {
                 vacationMonths++;
-                 money -= expenses;
+                money -= expenses;
                 money /= 3;
-                counter += 1;
+                vacationMonths += 1;
             } else {
                 money += income;
                 money -= expenses;
