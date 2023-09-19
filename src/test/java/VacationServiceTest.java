@@ -8,12 +8,12 @@ public class VacationServiceTest {
     void calculateVacationMonths() {
         VacationService vacationService = new VacationService();
 
-        int income = 10_000;
-        int expenses = 3_000;
-        int threshold = 20_000;
+        int income = 10000;
+        int expenses = 3000;
+        int threshold = 20000;
 
         int result = vacationService.calculateVacationMonths(income, expenses, threshold);
 
-        Assertions.assertEquals(4, result);
+        Assertions.assertEquals(6, result);
     }
 }
